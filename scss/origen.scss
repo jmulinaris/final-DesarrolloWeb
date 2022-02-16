@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap');
+
+@import "_colores";
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+$anchoimg:(
+    small: 40px,
+    medium: 50px,
+    large:70px,
+);
+
+@each $name-ancho, $width in $anchoimg{
+    .#{$name-ancho}{
+        width: $width;
+    }
+}
+
+body {
+    background-color:$negro;
+    font-family: 'Roboto', sans-serif;
+    color:$blanco;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    color:$gris;
+    text-align:center;
+    a{
+    color:$gris;
+    }
+}
+
+h3{
+    @extend h2;
+    color:$blanco;
+}
+
+footer {
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    padding:1%;
+    background-color: rgb(17, 17, 17);
+}
+
+a {
+    text-decoration:none;
+    color: rgb(209, 194, 194);
+    &:hover{
+    color:grey;
+    }
+}
+
+@mixin formato ($letra, $color){
+    font-size:$letra;
+    color:$color;
+}
+
+.botonGris {
+    @include formato (12px, black);
+    padding: 1.3em 3em;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    margin:2%;
+    cursor: pointer;
+    outline: none;
+    &:hover{
+    background-color: grey;
+    box-shadow: 0px 15px 20px rgb(214, 213, 213);
+    color: #fff;
+    transform: translateY(-7px);
+    }
+    &:active{
+    transform: translateY(-1px);
+    }
+}
+
+.mainContacto{
+    font-size: 2.5rem;
+    padding:1%;
+    text-align: center;
+    margin-top:1%;
+    form{
+    text-align: left;
+    background-color:whitesmoke;
+    border: double black;
+    @include formato (1rem, black);
+    padding:2%;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;   
+    input{
+    width:30%;
+    }
+    textarea{
+    padding:2%;
+    width:90%;
+    }
+}
+    iframe{
+    margin-left:5%;
+    margin-right:5%;
+    }
+}
+
+.mainPromos{
+    h2{
+    margin-top:2%;
+    font-size:2.5rem;
+    }
+    p{
+    color:black;
+    }
+}
+
+.index{
+    h2{
+    margin-top:2%;
+    font-size:2.5rem;
+    }
+    p{
+    @include formato (1rem, $blanco);
+    text-align: justify;
+    margin-left:2%;
+    margin-right:2%;
+    }
+}
+
+.wspYPresupuesto{
+    margin: 3%;
+}
+
+.nosotros{
+    text-align: justify;
+    @include formato (1rem, $blanco);
+    margin:2%;
+    padding:2%;
+    h3{
+    font-size:1.5rem;
+    border:solid white;
+    }
+}
+
+.mainPresupuesto{
+    font-style:italic;
+    h2{
+    margin-top:2%;
+    font-size:2.5rem;
+    }
+    h3{
+    font-size:1.5rem;
+    }
+    form{
+    text-align: left;
+    background-color:whitesmoke;
+    border: double black;
+    @include formato (1rem, black);
+    padding:2%;
+    margin-bottom:2%;
+    margin-left:15%;
+    width:65%;
+    input{
+    width:35%;
+    }
+    textarea{
+    padding:2%;
+    width:80%;
+    }
+}
+}

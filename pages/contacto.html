@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">   
-    <link rel="shortcut icon" href="/malibu-mulinaris/imagenes/favicon.png">
-    <link rel="stylesheet" href="/malibu-mulinaris/bootstrap-local/css/bootstrap.css">
-    <link rel="stylesheet" href="/malibu-mulinaris/estilos/style.css">
-    <title>MALIBÚ | Contacto </title>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bebidas, consulta, contacto, precios, sugenrencias" > 
+    <meta name="description" content="en esta página podrás enviarnos tu consulta o sugerencia">   
+    <link rel="shortcut icon" href="../imagenes/favicon.png">
+    <link rel="stylesheet" href="../bootstrap-local/css/bootstrap.css">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>MALIBÚ - Tienda de bebidas | Contacto </title>
 </head>
 <body>
     <!--Inicio nav-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/malibu-mulinaris/index.html">MALIBÚ</a>
+        <a class="navbar-brand" href="../index.html"><h1>MALIBÚ</h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/malibu-mulinaris/pages/combos.html">Promos</a>
-        <a class="nav-link active" aria-current="page" href="/malibu-mulinaris/pages/nosotros.html">Nosotros</a>
-        <a class="nav-link active" aria-current="page" href="/malibu-mulinaris/pages/contacto.html">Contacto</a>
+        <a class="nav-link active" aria-current="page" href="combos.html">Promos</a>
+        <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
         </div>
         </div>
     </nav>
     <!--Fin nav-->
     <!--Inicio formulario y mapa-->
-    <main class="container">
+    <main class="mainContacto container">
         <section class="row">
-            <section class="col contacto-titulo"><h2>Dudas o sugerencias? Escribinos!</h2>
-            <form class= action="">  
+            <section class="col"><h2>Dudas o sugerencias? Escribinos!</h2>
+            <form action="">  
             <fieldset>
                 <label for="nombre">Nombre</label>
-                <input class="inputFormulario" type="text"name="Nombre"><br>
+                <input type="text" name="nombre"><br>
                 <label for="celular">Celular</label>
-                <input class="inputFormulario" type="text"name="Celular:"><br>
-                <label for="correo">Correo:</label>
-                <input class="inputFormulario" type="email"name="Mail:"><br>
+                <input type="text" name="celular"><br>
+                <label for="mail">Correo:</label>
+                <input type="email" name="mail"><br>
                     <select name="estado civil"><br>
                         <option value="Soltero">Soltero/a</option>
                         <option value="Casado">Casado/a</option>
                         <option value="Divorciado">Divorciado/a</option><br>
                     </select><br>
-                Recibir ofertas por mail <input type="checkbox" name="acepta" value="1" /><br>
+                Recibir ofertas por mail<input type="checkbox" name="acepta" value="1" /><br>
                 <label for="comentario">Dejanos tu comentario:</label><br>
-                <textarea class="comentarioFormulario" name="Comentario" id="" cols="45" rows="10"></textarea>
+                <textarea name="Comentario" id="" cols="45" rows="10"></textarea>
             </fieldset>  
             <input type="submit" value ="Limpiar">
             <input type="submit"value="Enviar">
@@ -50,7 +52,7 @@
             </section>
             <section class="col contacto-titulo">
             <h2>Visitanos en nuestro local!</h2>
-            <iframe  class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.9593052542623!2d-64.254367384547!3d-31.360102181422867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329eb708d21569%3A0xb6308d08e093765b!2sAv.%20Carlos%20Federico%20Gauss%205300%2C%20X5021FGU%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1641489622852!5m2!1ses!2sar" width="450vh" height="350vh" style="border: double 5px;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.9593052542623!2d-64.254367384547!3d-31.360102181422867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329eb708d21569%3A0xb6308d08e093765b!2sAv.%20Carlos%20Federico%20Gauss%205300%2C%20X5021FGU%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1641489622852!5m2!1ses!2sar" width="450vh" height="350vh" style="border: double 5px;" allowfullscreen="" loading="lazy"></iframe>
             </section>
         </section>
     </main>
@@ -60,13 +62,13 @@
         <section class="row">
             <article class="col">
                     Seguinos en nuestras redes sociales<br>
-                    <a href="https://www.facebook.com/"><img class="small" src="/malibu-mulinaris/imagenes/face.png" alt="facebook"></a> 
-                    <a href="https://www.instagram.com/"><img class="small" src="/malibu-mulinaris/imagenes/instagram.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/"><img class="small" src="../imagenes/face.png" alt="facebook"></a> 
+                    <a href="https://www.instagram.com/"><img class="small" src="../imagenes/instagram.png" alt="instagram"></a>
             </article>
             <article class="col">
             Suscribite a nuestro newsletter
             <form>
-                <input type="text"email="nombre"placeholder="Mail">
+                <input type="email" name="mail" placeholder="Mail">
                 <input type="submit"value="Enviar">
             </form>
             </article>
@@ -79,7 +81,7 @@
         </section>
     </footer>
     <!--Fin footer-->
-        <script src="/malibu-mulinaris/bootstrap-local/js/bootstrap.js"></script>
+        <script src="../bootstrap-local/js/bootstrap.js"></script>
 </body>
 </html>
 
