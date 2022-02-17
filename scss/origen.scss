@@ -90,22 +90,23 @@ a {
     font-size: 2.5rem;
     padding:1%;
     text-align: center;
-    margin-top:1%;
     form{
+    background-color:$grisformulario;
     text-align: left;
-    background-color:whitesmoke;
-    border: double black;
+    border: double white;
+    display:flex;
+    flex-direction: row;
     @include formato (1rem, black);
     padding:2%;
     margin-left:5%;
-    margin-right:5%;
-    width:90%;   
+    margin-right:5%; 
     input{
-    width:30%;
+    width:45%;
+    margin:1%;
     }
     textarea{
     padding:2%;
-    width:90%;
+    width:100%;
     }
 }
     iframe{
@@ -163,19 +164,24 @@ a {
     }
     form{
     text-align: left;
-    background-color:whitesmoke;
-    border: double black;
+    background-color:$grisformulario;
+    border: double white;
+    display:flex;
+    flex-direction: row;
     @include formato (1rem, black);
     padding:2%;
     margin-bottom:2%;
-    margin-left:15%;
-    width:65%;
+    margin-left:25%;
+    width:50%;
     input{
-    width:35%;
+    width:50%;
+    margin:1%;
+    border:solid white;
     }
     textarea{
     padding:2%;
-    width:80%;
+    width:100%;
+    border:solid white;
     }
 }
 }

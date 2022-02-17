@@ -1,144 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap");
-
 * {
-    padding: 0;
-    margin: 0; }
+  padding: 0;
+  margin: 0; }
 
 .small {
-    width: 40px; }
+  width: 40px; }
 
 .medium {
-    width: 50px; }
+  width: 50px; }
 
 .large {
-    width: 70px; }
+  width: 70px; }
 
 body {
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
-    color: white; }
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: white; }
 
 h2, h3 {
-    font-family: 'Staatliches', cursive;
-    color: slategray;
-    text-align: center; }
-    h2 a, h3 a {
+  font-family: 'Staatliches', cursive;
+  color: slategray;
+  text-align: center; }
+  h2 a, h3 a {
     color: slategray; }
 
 h3 {
-    color: white; }
+  color: white; }
 
 footer {
-    font-size: 15px;
-    align-items: center;
-    text-align: center;
-    padding: 1%;
-    background-color: #111111; }
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+  background-color: #111111; }
 
 a {
-    text-decoration: none;
-    color: #d1c2c2; }
-    a:hover {
+  text-decoration: none;
+  color: #d1c2c2; }
+  a:hover {
     color: grey; }
 
 .botonGris {
-    font-size: 12px;
-    color: black;
-    padding: 1.3em 3em;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    margin: 2%;
-    cursor: pointer;
-    outline: none; }
-    .botonGris:hover {
-        background-color: grey;
-        box-shadow: 0px 15px 20px #d6d5d5;
-        color: #fff;
-        transform: translateY(-7px); }
-    .botonGris:active {
-        transform: translateY(-1px); }
+  font-size: 12px;
+  color: black;
+  padding: 1.3em 3em;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  margin: 2%;
+  cursor: pointer;
+  outline: none; }
+  .botonGris:hover {
+    background-color: grey;
+    box-shadow: 0px 15px 20px #d6d5d5;
+    color: #fff;
+    transform: translateY(-7px); }
+  .botonGris:active {
+    transform: translateY(-1px); }
 
 .mainContacto {
-    font-size: 2.5rem;
-    padding: 1%;
-    text-align: center;
-    margin-top: 1%; }
-    .mainContacto form {
+  font-size: 2.5rem;
+  padding: 1%;
+  text-align: center; }
+  .mainContacto form {
+    background-color: #464444;
     text-align: left;
-    background-color: whitesmoke;
-    border: double black;
+    border: double white;
+    display: flex;
+    flex-direction: row;
     font-size: 1rem;
     color: black;
     padding: 2%;
     margin-left: 5%;
-    margin-right: 5%;
-    width: 90%; }
+    margin-right: 5%; }
     .mainContacto form input {
-        width: 30%; }
+      width: 45%;
+      margin: 1%; }
     .mainContacto form textarea {
-        padding: 2%;
-        width: 90%; }
-    .mainContacto iframe {
-        margin-left: 5%;
-        margin-right: 5%; }
+      padding: 2%;
+      width: 100%; }
+  .mainContacto iframe {
+    margin-left: 5%;
+    margin-right: 5%; }
 
 .mainPromos h2, .mainPromos h3 {
-    margin-top: 2%;
-    font-size: 2.5rem; }
+  margin-top: 2%;
+  font-size: 2.5rem; }
 
 .mainPromos p {
-    color: black; }
+  color: black; }
 
 .index h2, .index h3 {
-    margin-top: 2%;
-    font-size: 2.5rem; }
+  margin-top: 2%;
+  font-size: 2.5rem; }
 
 .index p {
-    font-size: 1rem;
-    color: white;
-    text-align: justify;
-    margin-left: 2%;
-    margin-right: 2%; }
+  font-size: 1rem;
+  color: white;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%; }
 
 .wspYPresupuesto {
-    margin: 3%; }
+  margin: 3%; }
 
 .nosotros {
-    text-align: justify;
-    font-size: 1rem;
-    color: white;
-    margin: 2%;
-    padding: 2%; }
-    .nosotros h3 {
-        font-size: 1.5rem;
-        border: solid white; }
+  text-align: justify;
+  font-size: 1rem;
+  color: white;
+  margin: 2%;
+  padding: 2%; }
+  .nosotros h3 {
+    font-size: 1.5rem;
+    border: solid white; }
 
 .mainPresupuesto {
-    font-style: italic; }
-    .mainPresupuesto h2, .mainPresupuesto h3 {
-        margin-top: 2%;
-        font-size: 2.5rem; }
-    .mainPresupuesto h3 {
-        font-size: 1.5rem; }
-    .mainPresupuesto form {
-        text-align: left;
-        background-color: whitesmoke;
-        border: double black;
-        font-size: 1rem;
-        color: black;
-        padding: 2%;
-        margin-bottom: 2%;
-        margin-left: 15%;
-        width: 65%; }
+  font-style: italic; }
+  .mainPresupuesto h2, .mainPresupuesto h3 {
+    margin-top: 2%;
+    font-size: 2.5rem; }
+  .mainPresupuesto h3 {
+    font-size: 1.5rem; }
+  .mainPresupuesto form {
+    text-align: left;
+    background-color: #464444;
+    border: double white;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    color: black;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    width: 50%; }
     .mainPresupuesto form input {
-        width: 35%; }
+      width: 50%;
+      margin: 1%;
+      border: solid white; }
     .mainPresupuesto form textarea {
-        padding: 2%;
-        width: 80%; }
+      padding: 2%;
+      width: 100%;
+      border: solid white; }

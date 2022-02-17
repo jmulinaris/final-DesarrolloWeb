@@ -35,17 +35,12 @@
         </section>
         <form class="col" action="">
             <fieldset>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre"><br>
-                <label for="celular">Celular</label>
-                <input type="text" name="celular"><br>
-                <label for="mail">Correo:</label>
-                <input type="email" name="mail"><br>
-                <label for="pedido">Pedido:</label><br>
-                <textarea name="pedido" id="" cols="37" rows="10"></textarea>
-            </fieldset>  
-                <input type="submit" value ="Limpiar">
-                <input type="submit"value="Enviar">
+                <div><input type="text" name="nombre" placeholder="Nombre"></div>
+                <div><input type="text" name="celular" placeholder="Celular"></div>
+                <div><input type="email" name="mail" placeholder="Mail"></div>
+                <div><textarea name="pedido" id="" cols="37" rows="10" placeholder="Hacenos tu pedido..."></textarea></div>
+                <div><input class="btn btn-secondary" type="submit"value="Enviar"></div>
+            </fieldset>      
         </form>
     </main>
     <!--Fin formulario-->

@@ -28,26 +28,15 @@
     <!--Inicio formulario y mapa-->
     <main class="mainContacto container">
         <section class="row">
-            <section class="col"><h2>Dudas o sugerencias? Escribinos!</h2>
+            <section class="col"><h2>CONSULTAS? ESCRIBINOS</h2>
             <form action="">  
             <fieldset>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre"><br>
-                <label for="celular">Celular</label>
-                <input type="text" name="celular"><br>
-                <label for="mail">Correo:</label>
-                <input type="email" name="mail"><br>
-                    <select name="estado civil"><br>
-                        <option value="Soltero">Soltero/a</option>
-                        <option value="Casado">Casado/a</option>
-                        <option value="Divorciado">Divorciado/a</option><br>
-                    </select><br>
-                Recibir ofertas por mail<input type="checkbox" name="acepta" value="1" /><br>
-                <label for="comentario">Dejanos tu comentario:</label><br>
-                <textarea name="Comentario" id="" cols="45" rows="10"></textarea>
+                <div><input type="text" name="nombre" placeholder="Nombre"></div>
+                <div><input type="text" name="celular" placeholder="Celular"></div>
+                <div><input type="email" name="mail" placeholder="Mail"></div>
+                <div><textarea name="comentario" id="comentario" placeholder="Dejanos tu comentario..." cols="45" rows="10"></textarea></div>
+            <div><input class="btn btn-secondary" type="submit"value="Enviar"></div>
             </fieldset>  
-            <input type="submit" value ="Limpiar">
-            <input type="submit"value="Enviar">
             </form>
             </section>
             <section class="col contacto-titulo">

@@ -4498,7 +4498,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 2rem;
-  margin-left:1%;
+  margin-left:5%;
   margin-bottom:2%;
 }
 
@@ -4597,7 +4597,7 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 60%;
+  width: 70%;
 }
 
 .card-img,
