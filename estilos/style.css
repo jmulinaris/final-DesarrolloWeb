@@ -94,7 +94,6 @@ a {
   font-size: 3rem; }
   @media (max-width: 576px) {
     .mainPromos h2, .mainPromos h3 {
-      text-align: center;
       margin-left: auto;
       margin-right: auto; } }
 
@@ -151,9 +150,7 @@ a {
     width: 50%; }
     .mainPresupuesto form input {
       width: 50%;
-      margin: 1%;
-      border: solid white; }
+      margin: 1%; }
     .mainPresupuesto form textarea {
       padding: 2%;
-      width: 100%;
-      border: solid white; }
+      width: 100%; }
