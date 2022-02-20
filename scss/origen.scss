@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap');
 
 @import "_colores";
+@import "_fuentes";
 
 *{
     padding: 0;
@@ -87,7 +88,7 @@ a {
 }
 
 .mainContacto{
-    font-size: 2.5rem;
+    font-size: $medium;
     padding:1%;
     text-align: center;
     form{
@@ -118,17 +119,16 @@ a {
 .mainPromos{
     h2{
     margin-top:2%;
-    font-size:3rem;
-    @media(max-width:576px){
-        margin-left:auto;
-        margin-right:auto;
+    font-size:$large;
+    @media(max-width:480px){
+        margin-left:5%;
     }
     }
     p{
     color:black;
     }
     .card{
-        @media(max-width:576px){
+        @media(max-width:480px){
             margin-left:15%;
             margin-right:2%;
         }
@@ -138,7 +138,7 @@ a {
 .index{
     h2{
     margin-top:2%;
-    font-size:2.5rem;
+    font-size:$medium;
     }
     p{
     @include formato (1rem, $blanco);
@@ -152,22 +152,21 @@ a {
     margin: 3%;
 }
 
-.nosotros{
+.mainNosotros{
+    margin:5%;
+    .nosotros{
     text-align: justify;
-    @include formato (1rem, $blanco);
-    margin:2%;
-    padding:2%;
-    h3{
-    font-size:1.5rem;
+    @include formato ($XSmall, $blanco);
+    background-color: $negro;
     border:solid white;
-    }
+}
 }
 
 .mainPresupuesto{
     font-style:italic;
     h2{
     margin-top:2%;
-    font-size:2.5rem;
+    font-size:$medium;
     }
     h3{
     font-size:1.5rem;

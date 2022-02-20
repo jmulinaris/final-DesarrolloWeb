@@ -92,15 +92,14 @@ a {
 .mainPromos h2, .mainPromos h3 {
   margin-top: 2%;
   font-size: 3rem; }
-  @media (max-width: 576px) {
+  @media (max-width: 480px) {
     .mainPromos h2, .mainPromos h3 {
-      margin-left: auto;
-      margin-right: auto; } }
+      margin-left: 5%; } }
 
 .mainPromos p {
   color: black; }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .mainPromos .card {
     margin-left: 15%;
     margin-right: 2%; } }
@@ -119,14 +118,13 @@ a {
 .wspYPresupuesto {
   margin: 3%; }
 
-.nosotros {
-  text-align: justify;
-  font-size: 1rem;
-  color: white;
-  margin: 2%;
-  padding: 2%; }
-  .nosotros h3 {
-    font-size: 1.5rem;
+.mainNosotros {
+  margin: 5%; }
+  .mainNosotros .nosotros {
+    text-align: justify;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
     border: solid white; }
 
 .mainPresupuesto {
