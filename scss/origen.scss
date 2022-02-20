@@ -42,7 +42,7 @@ h3{
 }
 
 footer {
-    font-size: 15px;
+    font-size: $xxSmall;
     align-items: center;
     text-align: center;
     padding:1%;
@@ -63,7 +63,7 @@ a {
 }
 
 .botonGris {
-    @include formato (12px, black);
+    @include formato (0.8rem, black);
     padding: 1.3em 3em;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -97,6 +97,7 @@ a {
     border: double white;
     display:flex;
     flex-direction: row;
+    width:100%;
     @include formato (1rem, black);
     padding:2%;
     margin-left:5%;
@@ -109,7 +110,7 @@ a {
     padding:2%;
     width:100%;
     }
-}
+    }
     iframe{
     margin-left:5%;
     margin-right:5%;
@@ -156,7 +157,7 @@ a {
     margin:5%;
     .nosotros{
     text-align: justify;
-    @include formato ($XSmall, $blanco);
+    @include formato ($xSmall, $blanco);
     background-color: $negro;
     border:solid white;
 }
@@ -169,7 +170,7 @@ a {
     font-size:$medium;
     }
     h3{
-    font-size:1.5rem;
+    font-size:$bSmall;
     }
     form{
     text-align: left;
@@ -177,7 +178,7 @@ a {
     border: double white;
     display:flex;
     flex-direction: row;
-    @include formato (1rem, black);
+    @include formato ($xSmall, black);
     padding:2%;
     margin-bottom:2%;
     margin-left:25%;
