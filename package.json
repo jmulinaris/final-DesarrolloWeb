@@ -1,8 +1,8 @@
 {
   "name": "malibu-mulinaris",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "pagina web de malibu, tienda de bebidas",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/origen.scss estilos/style.css",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/julimulinaris/malibu-mulinaris#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "bootstrap":"^v5.1.3"
   }
 }
