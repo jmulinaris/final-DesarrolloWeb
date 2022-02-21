@@ -1,15 +1,15 @@
-### Info general
+## Info general
 ***
-Desarrollo del sitio web de malibu, para venta de bebidas en cordoba capital.
+Desarrollo del sitio web de Malibú, para venta de bebidas en Córdoba Capital.
 
-## Tecnologias
+## Tecnologías
 ***
 Teconologías utilizadas en el proyecto
 * [node-sass]: Version 7.0.1 
 * [nodemon]: Version 2.0.15
 * [bootstrap]: Version 5.1.3
 
-## Instalacion
+## Instalación
 ***
 Puedes intalarlo desde npm 
 ```
