@@ -46,7 +46,7 @@ footer {
     align-items: center;
     text-align: center;
     padding:1%;
-    background-color: rgb(17, 17, 17);
+    background-color: $grisfooter;
 }
 
 a {
@@ -60,6 +60,11 @@ a {
 @mixin formato ($letra, $color){
     font-size:$letra;
     color:$color;
+}
+
+@mixin margin ($left, $rigth){
+    margin-left:$left;
+    margin-right:$right;
 }
 
 .botonGris {
@@ -98,10 +103,9 @@ a {
     display:flex;
     flex-direction: row;
     width:100%;
-    @include formato (1rem, black);
+    @include formato ($xSamll, $negro);
     padding:2%;
-    margin-left:5%;
-    margin-right:5%; 
+    @include margin (5%, 5%);
     input{
     width:45%;
     margin:1%;
@@ -112,8 +116,7 @@ a {
     }
     }
     iframe{
-    margin-left:5%;
-    margin-right:5%;
+    @include margin (5%, 5%);
     }
 }
 
@@ -130,8 +133,7 @@ a {
     }
     .card{
         @media(max-width:480px){
-            margin-left:15%;
-            margin-right:2%;
+        @include margin (15%, 2%)
         }
     }
 }
@@ -142,10 +144,9 @@ a {
     font-size:$medium;
     }
     p{
-    @include formato (1rem, $blanco);
+    @include formato ($xSmall, $blanco);
     text-align: justify;
-    margin-left:2%;
-    margin-right:2%;
+    @include margin (2%, 2%)
     }
 }
 
