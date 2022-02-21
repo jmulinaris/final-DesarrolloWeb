@@ -128,28 +128,28 @@ a {
     background-color: black;
     border: solid white; }
 
-.mainPresupuesto {
-  font-style: italic; }
-  .mainPresupuesto h2, .mainPresupuesto h3 {
-    margin-top: 2%;
-    font-size: 2.5rem; }
-  .mainPresupuesto h3 {
-    font-size: 1.5rem; }
-  .mainPresupuesto form {
-    text-align: left;
-    background-color: #464444;
-    border: double white;
-    display: flex;
-    flex-direction: row;
-    font-size: 1rem;
-    color: black;
+.mainPresupuesto h2, .mainPresupuesto h3 {
+  margin-top: 2%;
+  font-size: 2.5rem; }
+
+.mainPresupuesto h3 {
+  font-size: 1.5rem; }
+
+.mainPresupuesto form {
+  text-align: left;
+  background-color: #464444;
+  border: double white;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  color: black;
+  padding: 2%;
+  margin-bottom: 2%;
+  margin-left: 25%;
+  width: 50%; }
+  .mainPresupuesto form input {
+    width: 50%;
+    margin: 1%; }
+  .mainPresupuesto form textarea {
     padding: 2%;
-    margin-bottom: 2%;
-    margin-left: 25%;
-    width: 50%; }
-    .mainPresupuesto form input {
-      width: 50%;
-      margin: 1%; }
-    .mainPresupuesto form textarea {
-      padding: 2%;
-      width: 100%; }
+    width: 100%; }
