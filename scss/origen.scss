@@ -62,7 +62,7 @@ a {
     color:$color;
 }
 
-@mixin margin ($left, $rigth){
+@mixin margin ($left, $right){
     margin-left:$left;
     margin-right:$right;
 }
@@ -103,7 +103,7 @@ a {
     display:flex;
     flex-direction: row;
     width:100%;
-    @include formato ($xSamll, black);
+    @include formato ($xSmall, black);
     padding:2%;
     @include margin (5%, 5%);
     input{
