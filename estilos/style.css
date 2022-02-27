@@ -74,12 +74,12 @@ a {
     border: double white;
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 80%;
     font-size: 1rem;
     color: black;
     padding: 2%;
-    margin-left: 25%;
-    margin-right: 15%; }
+    margin-left: 12%;
+    margin-right: 12%; }
     .mainContacto form input {
       width: 45%;
       margin: 1%; }
@@ -87,7 +87,7 @@ a {
       padding: 2%;
       width: 100%; }
   .mainContacto .tituloMapa {
-    margin-top: 2%; }
+    margin-top: 5%; }
   .mainContacto iframe {
     margin-left: 5%;
     margin-right: 5%; }
