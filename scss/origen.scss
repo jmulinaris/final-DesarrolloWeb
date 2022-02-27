@@ -120,7 +120,7 @@ a {
     }
     }
     .tituloMapa{
-    margin-top:5%;
+    margin-top:2%;
     }
     iframe{
     @include margin (5%, 5%);
@@ -173,7 +173,7 @@ a {
 
 .mainPresupuesto{
     h2{
-    margin-top:2%;
+    margin-top:5%;
     font-size:$medium;
     }
     h3{
@@ -188,10 +188,10 @@ a {
     @include formato ($xSmall, black);
     padding:2%;
     margin-bottom:2%;
-    margin-left:25%;
-    width:50%;
+    margin-left:10%;
+    width:80%;
     input{
-    width:50%;
+    width:40%;
     margin:1%;
     }
     textarea{

@@ -90,7 +90,7 @@ a {
       padding: 2%;
       width: 100%; }
   .mainContacto .tituloMapa {
-    margin-top: 5%; }
+    margin-top: 2%; }
   .mainContacto iframe {
     margin-left: 5%;
     margin-right: 5%; }
@@ -134,7 +134,7 @@ a {
     border: solid white; }
 
 .mainPresupuesto h2, .mainPresupuesto h3 {
-  margin-top: 2%;
+  margin-top: 5%;
   font-size: 2.5rem; }
 
 .mainPresupuesto h3 {
@@ -150,10 +150,10 @@ a {
   color: black;
   padding: 2%;
   margin-bottom: 2%;
-  margin-left: 25%;
-  width: 50%; }
+  margin-left: 10%;
+  width: 80%; }
   .mainPresupuesto form input {
-    width: 50%;
+    width: 40%;
     margin: 1%; }
   .mainPresupuesto form textarea {
     padding: 2%;
