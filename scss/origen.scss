@@ -102,10 +102,10 @@ a {
     border: double white;
     display:flex;
     flex-direction: row;
-    width:100%;
+    width:50%;
     @include formato ($xSmall, black);
     padding:2%;
-    @include margin (5%, 5%);
+    @include margin (25%, 15%);
     input{
     width:45%;
     margin:1%;
@@ -114,6 +114,9 @@ a {
     padding:2%;
     width:100%;
     }
+    }
+    .tituloMapa{
+        margin-top:2%;
     }
     iframe{
     @include margin (5%, 5%);
@@ -133,7 +136,7 @@ a {
     }
     .card{
         @media(max-width:480px){
-        @include margin (15%, 2%)
+        @include margin (15%, 5%)
         }
     }
 }
