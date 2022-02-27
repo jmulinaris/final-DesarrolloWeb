@@ -117,16 +117,18 @@ a {
     font-size: $medium;
     padding:1%;
     text-align: center;
+    margin-top:3%;
     form{
     background-color:$grisformulario;
     text-align: left;
     border: double white;
     display:flex;
     flex-direction: row;
-    width:80%;
+    justify-content: center;
+    width:70%;
     @include formato ($xSmall, black);
     padding:2%;
-    @include margin (12%, 12%);
+    @include margin (15%, 12%);
     input{
     width:45%;
     margin:1%;
@@ -137,16 +139,18 @@ a {
     }
     }
     .tituloMapa{
-    margin-top:2%;
+    margin-top:5%;
     }
     iframe{
     @include margin (5%, 5%);
+    margin-bottom:5%;
     }
 }
 
 .mainPromos{
     h2{
-    margin-top:2%;
+    margin-top:5%;
+    margin-bottom:2%;
     font-size:$medium;
     @media(max-width:480px){
         margin-left:5%;
@@ -194,9 +198,6 @@ a {
     h2{
     margin-top:5%;
     font-size:$medium;
-    }
-    h3{
-    font-size:$bSmall;
     }
     form{
     text-align: left;
