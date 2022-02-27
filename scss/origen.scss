@@ -47,6 +47,15 @@ footer {
     text-align: center;
     padding:1%;
     background-color: $grisfooter;
+    .redes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .face{
+    margin-right:1%;
+    }
     .info{
     display:flex;
     flex-direction: column;
