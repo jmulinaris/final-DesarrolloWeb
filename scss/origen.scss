@@ -162,7 +162,9 @@ a {
 }
 
 .mainNosotros{
-    margin:5%;
+    margin-top:5%;
+    margin-bottom:16%;
+    @include margin (5%, 5%);
     .nosotros{
     text-align: justify;
     @include formato ($xSmall, $blanco);

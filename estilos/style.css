@@ -125,7 +125,10 @@ a {
   margin: 3%; }
 
 .mainNosotros {
-  margin: 5%; }
+  margin-top: 5%;
+  margin-bottom: 16%;
+  margin-left: 5%;
+  margin-right: 5%; }
   .mainNosotros .nosotros {
     text-align: justify;
     font-size: 1rem;
