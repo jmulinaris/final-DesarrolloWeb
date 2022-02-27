@@ -43,7 +43,14 @@ footer {
     margin-right: 1%; }
   footer .info {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  footer .copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
 
 a {
   text-decoration: none;
