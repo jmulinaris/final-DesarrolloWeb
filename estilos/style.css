@@ -97,7 +97,7 @@ a {
 
 .mainPromos h2, .mainPromos h3 {
   margin-top: 2%;
-  font-size: 3rem; }
+  font-size: 2.5rem; }
   @media (max-width: 480px) {
     .mainPromos h2, .mainPromos h3 {
       margin-left: 5%; } }
